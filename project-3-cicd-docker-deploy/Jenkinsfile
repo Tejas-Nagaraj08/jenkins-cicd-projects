@@ -3,10 +3,10 @@ pipeline {
 
   environment {
     PROJECT_DIR = "project-3-cicd-docker-deploy"
-    IMAGE_NAME = "venkatesan004/backend-express-b7"
+    IMAGE_NAME = "tejas08wp/backend-node"
     IMAGE_TAG = "${BUILD_NUMBER}"
     CONTAINER_NAME = "backend-express-b7"
-    EMAIL_TO = "venkatesangunaraj@gmail.com"
+    EMAIL_TO = "tejaswp08@gmail.com"
     DOCKER_CREDENTIALS = "dockerhub-credentials"
   }
 
